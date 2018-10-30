@@ -1,0 +1,21 @@
+{
+  "name": "api-node-mongo",
+  "version": "1.0.0",
+  "description": "Primeira API com node e mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "Fabio Rodrigues da Silva - Dev",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "http": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
